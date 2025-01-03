@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 30px); /* Adjust cell size */
+  grid-template-rows: repeat(15, 30px);
+  gap: 2px;
+}
+
+.cell {
+  width: auto;
+  height: auto;
+  border: 1px solid #ddd; /* Optional border */
+  }
